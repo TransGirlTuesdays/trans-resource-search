@@ -11,12 +11,14 @@ function includesText(value, query) {
 
 function sourceSearchText(source) {
   const candidatePageText = (source.candidate_pages || [])
-  .map(page => [
+  .map(page =>
+  [
     page.title,
     page.url,
     page.notes,
     ...(page.topics || [])
-  ].join(" "))
+  ].join(" ")
+  )
   .join(" ");
 
   return [
@@ -55,6 +57,10 @@ function getHostname(url) {
   }
 }
 
+function fastExit() {
+  window.location.href = "https://www.google.com";
+}
+
 function ResultCard({ source }) {
   const candidatePages = source.candidate_pages || [];
 
@@ -72,57 +78,61 @@ function ResultCard({ source }) {
     <div className="meta-grid">
     <p>
     <strong>Region:</strong>{" "}
-    {(source.region || []).length ? source.region.join(", ") : "Not specified"}
-    </p>
-
-    <p>
-    <strong>Topics:</strong>{" "}
-    {(source.topic || []).length ? source.topic.join(", ") : "Not specified"}
-    </p>
-
-    {source.last_checked && (
-      <p>
-      <strong>Last checked:</strong> {source.last_checked}
+    {(source.region || []).length
+      ? source.region.join(", ")
+      : "Not specified"}
       </p>
-    )}
-    </div>
 
-    {source.notes && <p className="notes">{source.notes}</p>}
+      <p>
+      <strong>Topics:</strong>{" "}
+      {(source.topic || []).length
+        ? source.topic.join(", ")
+        : "Not specified"}
+        </p>
 
-    {source.base_url && (
-      <a
-      className="main-link"
-      href={source.base_url}
-      target="_blank"
-      rel="noreferrer"
-      >
-      Visit main site
-      </a>
-    )}
-
-    {candidatePages.length > 0 && (
-      <div className="pages">
-      <h3>Relevant pages</h3>
-
-      <ul>
-      {candidatePages.slice(0, 6).map(page => (
-        <li key={page.id || page.url}>
-        <a href={page.url} target="_blank" rel="noreferrer">
-        {page.title || page.url}
-        </a>
-
-        {page.topics?.length > 0 && (
-          <span className="page-topics">
-          {" "}
-          — {page.topics.join(", ")}
-          </span>
+        {source.last_checked && (
+          <p>
+          <strong>Last checked:</strong> {source.last_checked}
+          </p>
         )}
-        </li>
-      ))}
-      </ul>
-      </div>
-    )}
-    </article>
+        </div>
+
+        {source.notes && <p className="notes">{source.notes}</p>}
+
+        {source.base_url && (
+          <a
+          className="main-link"
+          href={source.base_url}
+          target="_blank"
+          rel="noreferrer"
+          >
+          Visit main site
+          </a>
+        )}
+
+        {candidatePages.length > 0 && (
+          <div className="pages">
+          <h3>Relevant pages</h3>
+
+          <ul>
+          {candidatePages.slice(0, 6).map(page => (
+            <li key={page.id || page.url}>
+            <a href={page.url} target="_blank" rel="noreferrer">
+            {page.title || page.url}
+            </a>
+
+            {page.topics?.length > 0 && (
+              <span className="page-topics">
+              {" "}
+              — {page.topics.join(", ")}
+              </span>
+            )}
+            </li>
+          ))}
+          </ul>
+          </div>
+        )}
+        </article>
   );
 }
 
@@ -132,6 +142,43 @@ export default function App() {
   const [query, setQuery] = useState("");
   const [topic, setTopic] = useState("");
   const [region, setRegion] = useState("");
+
+  useEffect(() => {
+    let escapePresses = 0;
+    let resetTimer = null;
+
+    function handleEscape(event) {
+      if (event.key !== "Escape") return;
+
+      console.log("Escape pressed");
+
+      escapePresses += 1;
+
+      if (resetTimer) {
+        clearTimeout(resetTimer);
+      }
+
+      if (escapePresses >= 3) {
+        console.log("Triple escape detected");
+        fastExit();
+        return;
+      }
+
+      resetTimer = setTimeout(() => {
+        escapePresses = 0;
+      }, 2000);
+    }
+
+    window.addEventListener("keyup", handleEscape, true);
+
+    return () => {
+      window.removeEventListener("keyup", handleEscape, true);
+
+      if (resetTimer) {
+        clearTimeout(resetTimer);
+      }
+    };
+  }, []);
 
   useEffect(() => {
     fetch("/sources.json")
@@ -186,6 +233,10 @@ export default function App() {
     resources and does not provide medical or legal advice.
     </p>
 
+    <p className="privacy-link">
+    <a href="/privacy.html">Privacy information</a>
+    </p>
+
     <div className="safety-box">
     <strong>Safety note:</strong> For emergencies or immediate danger,
     contact local emergency services or a crisis service in your area.
@@ -205,7 +256,10 @@ export default function App() {
     <div className="filters">
     <label>
     Topic
-    <select value={topic} onChange={event => setTopic(event.target.value)}>
+    <select
+    value={topic}
+    onChange={event => setTopic(event.target.value)}
+    >
     <option value="">All topics</option>
     {topics.map(item => (
       <option key={item} value={item}>
@@ -217,7 +271,10 @@ export default function App() {
 
     <label>
     Region
-    <select value={region} onChange={event => setRegion(event.target.value)}>
+    <select
+    value={region}
+    onChange={event => setRegion(event.target.value)}
+    >
     <option value="">All regions</option>
     {regions.map(item => (
       <option key={item} value={item}>
