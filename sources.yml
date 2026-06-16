@@ -1826,7 +1826,7 @@
   region:
   - global
   trust_level: clinical_guidelines_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -2288,7 +2288,7 @@
   region:
   - global
   trust_level: human_rights_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -2318,7 +2318,7 @@
   region:
   - global
   trust_level: human_rights_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -3930,7 +3930,7 @@
   region:
   - US
   trust_level: verified_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -7420,7 +7420,7 @@
   region:
   - US
   trust_level: research_policy_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -7977,7 +7977,7 @@
   region:
   - US
   trust_level: clinical_guidelines_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -8007,7 +8007,7 @@
   region:
   - US
   trust_level: academic_clinical_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -12490,7 +12490,7 @@
   region:
   - UK
   trust_level: trans_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -12756,7 +12756,7 @@
   region:
   - UK
   trust_level: anti_violence_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -14106,7 +14106,7 @@
   - UK
   - Scotland
   trust_level: trans_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -15859,7 +15859,7 @@
   region:
   - Netherlands
   trust_level: trans_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -18131,7 +18131,7 @@
   region:
   - Spain
   trust_level: families_youth_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -18228,7 +18228,7 @@
   region:
   - Romania
   trust_level: lgbtq_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -18258,7 +18258,7 @@
   region:
   - Armenia
   trust_level: trans_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -18743,7 +18743,7 @@
   region:
   - Poland
   trust_level: trans_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -18773,7 +18773,7 @@
   region:
   - Poland
   trust_level: trans_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -23055,7 +23055,7 @@
   region:
   - New Zealand
   trust_level: professional_health_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -23086,7 +23086,7 @@
   region:
   - India
   trust_level: lgbtq_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -23116,7 +23116,7 @@
   region:
   - India
   trust_level: trans_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -23652,7 +23652,7 @@
   region:
   - India
   trust_level: community_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -23683,7 +23683,7 @@
   region:
   - Nepal
   trust_level: lgbtq_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -23713,7 +23713,7 @@
   region:
   - Pakistan
   trust_level: trans_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -24175,7 +24175,7 @@
   region:
   - Malaysia
   trust_level: community_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -24715,7 +24715,7 @@
   region:
   - South Korea
   trust_level: lgbtq_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -24745,7 +24745,7 @@
   region:
   - Japan
   trust_level: community_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -24934,7 +24934,7 @@
   region:
   - Lebanon
   trust_level: lgbtq_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -24964,7 +24964,7 @@
   region:
   - Iraq
   trust_level: lgbtq_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -24994,7 +24994,7 @@
   region:
   - Tunisia
   trust_level: lgbtq_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -25026,7 +25026,7 @@
   - global
   - Commonwealth
   trust_level: human_rights_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -25984,7 +25984,7 @@
   region:
   - South Africa
   trust_level: lgbtq_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -26014,7 +26014,7 @@
   region:
   - Zambia
   trust_level: trans_org_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -26208,7 +26208,7 @@
   region:
   - Africa
   trust_level: regional_lgbtq_network_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -26238,7 +26238,7 @@
   region:
   - Latin America
   trust_level: regional_trans_network_candidate
-  review_status: manual_review_needed
+  review_status: trustworthy
   last_checked: 2026-05-30
   discovery:
     method: source_seeded_sitemap_crawl
@@ -26248,3 +26248,260 @@
     reasons:
     - No usable sitemaps found. Add manualSitemapUrls or seed specific page URLs.
   candidate_pages: []
+
+
+- name: diyhrt.info
+  base_url: https://diyhrt.info
+  sitemap_urls:
+  - https://diyhrt.info/sitemap-0.xml
+  allowed_paths:
+  - /
+  - /other/changelog/
+  - /other/noticeboard/
+  - /resources/bloodtests/
+  - /resources/injections/
+  - /resources/telehealth/
+  - /transfem/dosing/
+  - /transfem/faq/
+  - /transfem/forms/
+  - /transfem/intro/
+  - /transfem/prescribedvsdiy/
+  - /transfem/risks/
+  - /transfem/sources/
+  - /transmasc/dosing/
+  - /transmasc/faq/
+  - /transmasc/intro/
+  - /transmasc/methods/
+  - /transmasc/prescribedvsdiy/
+  - /transmasc/risks/
+  - /transmasc/sources/
+  blocked_paths:
+  - /donate/
+  - /donation/
+  - /shop/
+  - /store/
+  - /events/
+  - /event/
+  - /blog/
+  - /news/
+  - /tag/
+  - /category/
+  - /author/
+  - /wp-json/
+  - /feed/
+  topic:
+  - medical
+  - health
+  - trans_resources
+  - resources
+  - documents
+  - community
+  - healthcare
+  - safety
+  - support
+  - legal
+  - research
+  region:
+  - global
+  trust_level: verified_org_candidate
+  review_status: Trustworthy
+  last_checked: '2026-06-16'
+  discovery:
+    method: manual_sitemap_import_gui
+    status: ok
+    score: 100
+    example_url: https://diyhrt.info/
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review
+  candidate_pages:
+  - url: https://diyhrt.info/
+    score: 100
+    topics:
+    - medical
+    - health
+    - trans_resources
+    - resources
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review
+  - url: https://diyhrt.info/other/changelog/
+    score: 100
+    topics:
+    - resources
+    - documents
+    - trans_resources
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review
+  - url: https://diyhrt.info/other/noticeboard/
+    score: 100
+    topics:
+    - resources
+    - community
+    - trans_resources
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review
+  - url: https://diyhrt.info/resources/bloodtests/
+    score: 100
+    topics:
+    - medical
+    - health
+    - healthcare
+    - safety
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review
+  - url: https://diyhrt.info/resources/injections/
+    score: 100
+    topics:
+    - medical
+    - health
+    - healthcare
+    - safety
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review
+  - url: https://diyhrt.info/resources/telehealth/
+    score: 100
+    topics:
+    - medical
+    - healthcare
+    - support
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review
+  - url: https://diyhrt.info/transfem/dosing/
+    score: 100
+    topics:
+    - medical
+    - health
+    - healthcare
+    - safety
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review
+  - url: https://diyhrt.info/transfem/faq/
+    score: 100
+    topics:
+    - medical
+    - health
+    - trans_resources
+    - support
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review
+  - url: https://diyhrt.info/transfem/forms/
+    score: 100
+    topics:
+    - medical
+    - health
+    - healthcare
+    - trans_resources
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review
+  - url: https://diyhrt.info/transfem/intro/
+    score: 100
+    topics:
+    - medical
+    - health
+    - trans_resources
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review
+  - url: https://diyhrt.info/transfem/prescribedvsdiy/
+    score: 100
+    topics:
+    - medical
+    - healthcare
+    - safety
+    - legal
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review
+  - url: https://diyhrt.info/transfem/risks/
+    score: 100
+    topics:
+    - medical
+    - health
+    - safety
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review
+  - url: https://diyhrt.info/transfem/sources/
+    score: 100
+    topics:
+    - medical
+    - health
+    - research
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review
+  - url: https://diyhrt.info/transmasc/dosing/
+    score: 100
+    topics:
+    - medical
+    - health
+    - healthcare
+    - safety
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review
+  - url: https://diyhrt.info/transmasc/faq/
+    score: 100
+    topics:
+    - medical
+    - health
+    - trans_resources
+    - support
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review
+  - url: https://diyhrt.info/transmasc/intro/
+    score: 100
+    topics:
+    - medical
+    - health
+    - trans_resources
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review
+  - url: https://diyhrt.info/transmasc/methods/
+    score: 100
+    topics:
+    - medical
+    - health
+    - trans_resources
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review
+  - url: https://diyhrt.info/transmasc/prescribedvsdiy/
+    score: 100
+    topics:
+    - medical
+    - healthcare
+    - safety
+    - legal
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review
+  - url: https://diyhrt.info/transmasc/risks/
+    score: 100
+    topics:
+    - medical
+    - health
+    - safety
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review
+  - url: https://diyhrt.info/transmasc/sources/
+    score: 100
+    topics:
+    - medical
+    - health
+    - research
+    reasons:
+    - Manually added from sitemap
+    - Marked Trustworthy by manual review

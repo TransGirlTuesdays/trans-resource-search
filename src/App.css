@@ -258,3 +258,8 @@ select:focus {
     display: grid;
   }
 }
+
+.privacy-link {
+  margin-top: -6px;
+  font-weight: 700;
+}

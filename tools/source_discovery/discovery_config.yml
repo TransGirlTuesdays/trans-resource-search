@@ -1,0 +1,74 @@
+common_crawl_indexes:
+  - CC-MAIN-2026-18
+  - CC-MAIN-2026-13
+  - CC-MAIN-2025-51
+
+search_patterns:
+  - "*transgender*"
+  - "*gender-affirming*"
+  - "*trans-health*"
+  - "*lgbt*trans*"
+  - "*legal-gender-recognition*"
+
+trusted_domain_hints:
+  - ".gov"
+  - ".edu"
+  - ".ac."
+  - ".nhs.uk"
+  - ".who.int"
+  - ".un.org"
+  - ".hrw.org"
+  - ".amnesty.org"
+  - ".plannedparenthood.org"
+
+positive_terms:
+  medical:
+    - transgender health
+    - gender affirming care
+    - hormone therapy
+    - puberty blockers
+    - WPATH
+    - informed consent
+  legal:
+    - legal gender recognition
+    - name change
+    - gender marker
+    - discrimination
+    - asylum
+  safety:
+    - crisis
+    - shelter
+    - domestic violence
+    - emergency
+    - hotline
+  youth:
+    - trans youth
+    - school policy
+    - parents
+    - minors
+  global:
+    - human rights
+    - international
+    - country report
+    - policy
+
+negative_terms:
+  - conversion therapy
+  - gender critical
+  - rapid onset gender dysphoria
+  - detrans ideology
+  - grooming
+  - agenda
+  - irreversible damage
+
+blocked_paths:
+  - /donate
+  - /shop
+  - /store
+  - /cart
+  - /login
+  - /signup
+  - /tag/
+  - /author/
+  - /category/
+  - /events
